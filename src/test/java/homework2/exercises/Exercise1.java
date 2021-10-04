@@ -12,6 +12,5 @@ public class Exercise1 {
 //            System.out.println(counter);
 //            counter++;
 //        }
-
     }
 }
