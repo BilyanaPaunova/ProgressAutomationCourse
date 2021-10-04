@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 //      Задача 8: По зададено число n, да се изведе на екрана таблица по
 //      следния начин:
-
 public class Exercise8 {
 
     public static void runExercise8() {

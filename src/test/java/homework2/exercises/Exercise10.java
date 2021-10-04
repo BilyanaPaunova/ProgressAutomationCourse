@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 //        Задача 10: Въведете число от клавиатурата и определете дали е просто. Просто
 //        число е това което се дели САМО на 1 и на себе си
-
 public class Exercise10 {
 
     public static void runExercise10() {

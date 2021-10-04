@@ -3,10 +3,10 @@ package homework2.exercises;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+// Задача 5: Да се въведат от потребителя 2 числа. И да се изведат на екрана всички
+//числа от по-малкото до по-голямото.
 public class Exercise5 {
 
-    // Задача 5: Да се въведат от потребителя 2 числа. И да се изведат на екрана всички
-    //числа от по-малкото до по-голямото.
     public static void runExercise5() {
 
         try (Scanner sc = new Scanner(System.in)) {

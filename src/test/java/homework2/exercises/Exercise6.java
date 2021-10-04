@@ -3,9 +3,10 @@ package homework2.exercises;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+//    Задача 6: Да се прочете число от екрана(конзолата) и да се изведе сбора на всички
+//    числа между 1 и въведеното число.
 public class Exercise6 {
-    //    Задача 6: Да се прочете число от екрана(конзолата) и да се изведе сбора на всички
-    //    числа между 1 и въведеното число.
+
     public static void runExercise6() {
 
         try (Scanner sc = new Scanner(System.in)) {
