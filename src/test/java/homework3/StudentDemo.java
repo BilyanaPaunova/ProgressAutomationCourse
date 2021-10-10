@@ -1,8 +1,9 @@
-package homework3.exercises;
+package homework3;
+
+import homework3.exercises.Student;
 
 public class StudentDemo {
     public static void main(String[] args) {
-
 
         Student bibs = new Student("Bibs", "AutomationTesting", 30);
         System.out.println("Bibs initial year in college: " + bibs.yearInCollage);

@@ -1,13 +1,13 @@
 package homework3.exercises;
 
 public class Student {
-    String name;
-    String subject;
-    int grade;
-    int yearInCollage;
-    int age;
-    boolean isDegree;
-    double money;
+    public String name;
+    public String subject;
+    public int grade;
+    public int yearInCollage;
+    public int age;
+    public boolean isDegree;
+    public double money;
 
     public Student() {
         grade = 3;
