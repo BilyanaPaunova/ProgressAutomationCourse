@@ -1,6 +1,6 @@
-package homework3;
+package homework3and4;
 
-import homework3.exercises.Student;
+import homework3and4.exercises.Student;
 
 public class StudentDemo {
     public static void main(String[] args) {

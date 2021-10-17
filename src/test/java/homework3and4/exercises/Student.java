@@ -1,4 +1,4 @@
-package homework3.exercises;
+package homework3and4.exercises;
 
 public class Student {
     public String name;
@@ -8,6 +8,7 @@ public class Student {
     public int age;
     public boolean isDegree;
     public double money;
+
 
     public Student() {
         grade = 3;
@@ -35,11 +36,11 @@ public class Student {
 
 
     public double receiveScholarship(double min, double amount) {
-        if (grade >= min && age < 33) {
-            //money = money + amount;
-            money += amount;
-        }
-        return money;
+            if (grade >= min && age < 33) {
+                //money = money + amount;
+                money += amount;
+            }
+            return money;
     }
 
 }

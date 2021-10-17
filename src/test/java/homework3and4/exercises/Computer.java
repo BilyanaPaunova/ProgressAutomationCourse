@@ -1,4 +1,4 @@
-package homework3.exercises;
+package homework3and4.exercises;
 
 public class Computer {
     public int year;

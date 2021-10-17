@@ -1,6 +1,6 @@
-package homework3;
+package homework3and4;
 
-import homework3.exercises.Computer;
+import homework3and4.exercises.Computer;
 
 public class ComputerDemo {
 
