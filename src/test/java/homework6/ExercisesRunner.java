@@ -22,34 +22,37 @@ public class ExercisesRunner {
         persons[5] = pavel;
 
         System.out.println("---------Show Info---------");
-
+        System.out.println();
         for (Person person : persons) {
             if (person instanceof Student) {
                 System.out.println("---------The Person is a Student---------");
                 ((Student) person).showStudentInfo();
+                System.out.println();
                 continue;
             }
             if (person instanceof Employee) {
                 System.out.println("---------The Person is an Employee---------");
                 ((Employee) person).showEmployeeInfo();
+                System.out.println();
                 continue;
             }
             if (person != null) {
                 System.out.println("---------The Person is a regular Person---------");
                 person.showPersonInfo();
-
+                System.out.println();
             } else {
                 System.out.println("---------No Person in the list---------");
+                System.out.println();
             }
-
         }
-
+        System.out.println();
         System.out.println("---------Show Overtime---------");
 
         for (Person person : persons) {
             if (person instanceof Employee) {
                 double overtime = ((Employee) person).calculateOvertime(2);
                 System.out.println(person.name + "'s overtime salary is " + overtime);
+                System.out.println();
             }
         }
     }
