@@ -13,17 +13,20 @@ public class Employee extends Person{
     }
 
     public double calculateOvertime(double hours) {
-        if(age < MINIMUM_OVERTIME_AGE) {
+        if(getAge() < MINIMUM_OVERTIME_AGE) {
             return 0;
         } else {
             return hours * OVERTIME * calculateDaySalary(daySalary);
         }
     }
-    public double calculateDaySalary(double daySalary){
-        daySalary = daySalary/8;
+    public double calculateDaySalary(double daySalary) {
+        if (daySalary > 0.0) {
+            daySalary = daySalary / 8;
+        } else {
+            System.out.println("Incorrectly calculated salary");
+        }
         return daySalary;
     }
-
     public void showEmployeeInfo() {
         showPersonInfo();
         System.out.println("Employee's day salary is: " + daySalary);

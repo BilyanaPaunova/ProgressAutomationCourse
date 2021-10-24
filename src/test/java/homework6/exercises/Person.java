@@ -2,13 +2,9 @@ package homework6.exercises;
 
 public class Person {
 
-//    private String name;
-//    private int age;
-//    private boolean isMan;
-
-    public String name;
-    public int age;
-    public boolean isMan;
+    private String name;
+    private int age;
+    private boolean isMan;
 
     public Person(String name, int age, boolean isMan) {
         this.name = name;
@@ -16,15 +12,15 @@ public class Person {
         this.isMan = isMan;
     }
 
-//    public String getName() {
-//        return name;
-//    }
+    public String getName() {
+        return name;
+    }
 //    public void setName(String name) {
 //        this.name = name;
 //    }
-//    public int getAge() {
-//        return age;
-//    }
+    public int getAge() {
+        return age;
+    }
 //    public void setAge(int age) {
 //        this.age = age;
 //    }

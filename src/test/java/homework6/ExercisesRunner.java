@@ -51,7 +51,7 @@ public class ExercisesRunner {
         for (Person person : persons) {
             if (person instanceof Employee) {
                 double overtime = ((Employee) person).calculateOvertime(2);
-                System.out.println(person.name + "'s overtime salary is " + overtime);
+                System.out.println(person.getName() + "'s overtime salary is " + overtime);
                 System.out.println();
             }
         }
