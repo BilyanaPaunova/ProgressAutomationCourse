@@ -1,4 +1,4 @@
-package homework6.exercises;
+package homework6and7.exercises;
 
 public class Student extends Person{
     private double score;

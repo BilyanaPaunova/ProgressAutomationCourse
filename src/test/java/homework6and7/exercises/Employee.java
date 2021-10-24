@@ -1,4 +1,4 @@
-package homework6.exercises;
+package homework6and7.exercises;
 
 public class Employee extends Person{
     private static final int MINIMUM_OVERTIME_AGE = 18;

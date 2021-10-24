@@ -1,6 +1,6 @@
-package homework6;
+package homework6and7;
 
-import homework6.exercises.*;
+import homework6and7.exercises.*;
 
 public class ExercisesRunner {
 
