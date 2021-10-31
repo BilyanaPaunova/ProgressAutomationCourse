@@ -1,6 +1,4 @@
-package homework8.interfaces;
-
-import homework8.interfaces.User;
+package homework8and9.interfaces;
 
 public interface AdminUser extends User {
     void deleteUser(String username);

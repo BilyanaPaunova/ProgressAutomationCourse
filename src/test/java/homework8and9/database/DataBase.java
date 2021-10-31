@@ -1,6 +1,6 @@
-package homework8.database;
+package homework8and9.database;
 
-import homework8.interfaces.User;
+import homework8and9.interfaces.User;
 
 public class DataBase {
     User[] dataBaseUsers;

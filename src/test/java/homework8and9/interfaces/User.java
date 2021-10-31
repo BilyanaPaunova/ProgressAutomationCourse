@@ -1,4 +1,4 @@
-package homework8.interfaces;
+package homework8and9.interfaces;
 
 public interface User {
     void logIn();

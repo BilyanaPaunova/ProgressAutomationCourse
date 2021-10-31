@@ -1,8 +1,8 @@
-package homework8.implementation;
+package homework8and9.implementation;
 
-import homework8.abstraction.AbstractUser;
-import homework8.interfaces.AdminUser;
-import homework8.interfaces.User;
+import homework8and9.abstraction.AbstractUser;
+import homework8and9.interfaces.AdminUser;
+import homework8and9.interfaces.User;
 
 public class AdminUserImpl extends AbstractUser implements AdminUser {
     @Override

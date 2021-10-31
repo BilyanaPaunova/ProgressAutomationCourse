@@ -12,18 +12,18 @@ public class ComputerDemo {
         Computer macBookPro = new Computer();
         Computer lenovoThinkCentre = new Computer();
 
-        Computer dellVostro = new Computer(2020, 1920.99, 1024, 450);
+        Computer dellVostro = new Computer( );
         Computer asusVivoBook = new Computer(220, 1850, true, 1024, 920, "Windows 10");
 
         //give values to the object's fields
-        macBookPro.year = 2020;
+        macBookPro.setYear(2020);
         macBookPro.hardDiscMemory = 1024;
         macBookPro.freeMemory = macBookPro.hardDiscMemory;
         macBookPro.isNotebook = true;
         macBookPro.operationSystem = "macOS";
         macBookPro.price = 3500.99;
 
-        lenovoThinkCentre.year = 2021;
+        lenovoThinkCentre.setYear(2021);
         lenovoThinkCentre.hardDiscMemory = 512;
         lenovoThinkCentre.freeMemory = lenovoThinkCentre.hardDiscMemory;
         lenovoThinkCentre.isNotebook = false;

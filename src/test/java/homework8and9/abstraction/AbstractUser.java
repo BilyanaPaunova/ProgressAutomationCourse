@@ -1,6 +1,6 @@
-package homework8.abstraction;
+package homework8and9.abstraction;
 
-import homework8.interfaces.User;
+import homework8and9.interfaces.User;
 
 public class AbstractUser implements User {
 
